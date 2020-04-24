@@ -1,0 +1,26 @@
+{
+  "name": "alc-premisa-tres_api",
+  "version": "1.0.0",
+  "description": "API para la Premisa 3 del Area de Lenguejes Computarizados de la IENBA",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "watch": "nodemon index"
+  },
+  "keywords": [
+    "ALC",
+    "chistes",
+    "premisa3"
+  ],
+  "author": "Gabriel Molfino",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.10",
+    "node": "^14.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
